@@ -38,10 +38,7 @@ def dfs(start_state, goal_state):
             if neighbor not in visited:
                 stack.append((neighbor, path + [neighbor]))
 
-    return None  # No solution found
-
-
-# Example Usage
+    return None  
 
 start_state = (1, 2, 3,
                4, 0, 6,
